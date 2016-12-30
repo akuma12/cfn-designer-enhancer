@@ -1,0 +1,1 @@
+$("#resource-editor").find("div.jsoneditor").find("div.menu").append("<p>Blah</p>");
