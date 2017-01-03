@@ -1,11 +1,25 @@
 {
-  "name": "Cloudformation Designer Enhancer",
+  "name": "Cloudformation_Designer_Enhancer",
   "version": "0.0.1",
   "description": "Chrome extension to add Cloudformation Resource documentation and fillable form fields to Cloudformation designer view.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akuma12/cfn-designer-enhancer"
+  },
+  "keywords": [
+    "Cloudformation",
+    "AWS",
+    "Chrome",
+    "extension"
+  ],
+  "author": "Jim Rohrer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akuma12/cfn-designer-enhancer/issues"
+  },
   "devDependencies": {
     "brfs": "^1.4.0",
     "browserify": "^9.0.3",
-    "gif.js": "~0.1.6",
     "gulp": "^3.8.10",
     "gulp-less": "~1.3.1",
     "gulp-util": "^3.0.2",
@@ -20,7 +34,8 @@
   "dependencies": {
     "classnames": "^1.1.2",
     "lodash": "^3.2.0",
-    "react": "^0.12.2"
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
   },
   "browserify": {
     "debug": true,

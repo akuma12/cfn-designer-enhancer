@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Cloudformation Designer Enhancer",
+  "description": "This extension adds a fillable form to resources in the AWS Cloudformation Designer view.",
+  "version": "1.0",
+  "permissions": [
+    "https://s3.amazonaws.com/cfn-doc-scraper/*"
+  ],
+  "content_scripts": [{
+    "js": [ "content.js" ],
+    "matches": [ "http://www.cnn.com/*" ]
+  }],
+  "content_security_policy": "script-src 'self' 'unsafe-inline'; object-src 'self'"
+}
